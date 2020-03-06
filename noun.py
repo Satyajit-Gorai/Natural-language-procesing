@@ -29,7 +29,7 @@ for line in text:
 
         else:
             d[word] = 1
-
+print("The most occuring words are :-- ")
 for key in list(d.keys()):
     if int(d[key]) >= 4:
         print(key, ":", d[key])
