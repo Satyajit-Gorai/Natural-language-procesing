@@ -17,7 +17,7 @@ for sentence in sentences:
 
 #print(nouns)
 fw.close()
-text = open("simple.txt", "r")
+text = open("AllNoun.txt", "r")
 d = dict()
 for line in text:
     line = line.lower()
